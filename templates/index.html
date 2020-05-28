@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Bangalee Kamara Jr - Index Page
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top b-3" src="{{ url_for('static', filename='developer.jpg')}}" alt="Card image cap" >
+                <div class="card-body">
+                  <h5 class="card-title">Banagalee Kamara Jr.</h5>
+                  <p class="card-text">An intermediate level developer and a senior back end C programmer</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-9 col-md-6 col-sm-12 p-5">
+            <h2>About Me</h2>
+            <p>
+                Bangalee Kamara Jr is a senior level computer programmer with efficient coding skills in C, C++. C#, PHP, Python, R for data science
+                amongst other languages. Mr Kamara is also an intermediate application devleoper for both desktop and web. He is good in writting database scripts base on the the following languages.
+            </p>
+            <h2>Personal Life</h2>
+            <p>
+                Bangalee Kamara Jr was borned September 26, 1991 on Buhsrod Island Monrovia Liberia. He is the last of six children of which
+                are five boys and one girl.
+            </p>
+            <h2>Education</h2>
+            <table class="table table-striped table-dark">
+                <tr class="text-center">
+                    <th>Year Achieved</th>
+                    <th>Document type</th>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>High School Diplomat</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>BIT (Barchelor Information Technology)</td>
+                </tr>
+            </table>
+        </div>        
+    </div>
+{% endblock %}
+    
